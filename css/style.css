@@ -15,6 +15,9 @@ body {
     background-color: #232323 !important;
   }
   /* HEADER */
+  #header {
+    margin: 20px;
+  }
   .logui {
     width: 100px;
   }
@@ -30,5 +33,5 @@ body {
   /* MAIN */
   #principal {
     background: #212529;
-    margin: 30px;
+    margin: 20px;
   }
