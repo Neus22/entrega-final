@@ -132,3 +132,7 @@ body {
   padding: 20px 0px;
 }
 
+#trucos .tips .truc iframe {
+  width: 370px;
+  height: 250px;
+}
