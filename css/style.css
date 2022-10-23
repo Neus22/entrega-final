@@ -114,7 +114,7 @@ body {
     ,url("../img/clasificatorias/clasi-dos.jpg");
 
 }
-
+/* iframe */
 #trucos {
   background-color: #212529;
   margin: 20px 30px;
@@ -136,3 +136,45 @@ body {
   width: 370px;
   height: 250px;
 }
+
+/* ASIDE */
+#apex a img {
+  width: 15%;
+  height: auto;
+  margin: 0px 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#apex {
+  display: none;
+}
+
+/* FOOTER */
+#redes {
+  background-color: #212529;
+  height: 17vh
+  
+}
+
+.logosRedes {
+  margin-left: 30px;
+  
+}
+.int {
+  display: inline;
+}
+.int a img{
+  width: 50px;
+  margin: 2px;
+  
+}
+.copy {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 1em;
+}
+
+
