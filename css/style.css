@@ -84,6 +84,7 @@ body {
 }
 #avances .resumen a:hover {
   color: rgb(153, 152, 152);
+  font-size: 35px;
 }
 
 .resumen:first-child {
@@ -178,6 +179,23 @@ body {
   font-size: 1em;
 }
 
+/* PAGE ARMAS */
+#weapons {
+  background-color: #212529;
+  margin: 20px 30px;
+  color: white;
+  text-align: center;
+}
+#weapons .mejor h1 {
+  color: aqua;
+  padding: 10px;
+}
+#weapons .mejor p {
+  padding: 5px;
+}
+
+
+/* RESPONSIVE */
 @media (min-width: 768px){
   #apex {
     display: block;
