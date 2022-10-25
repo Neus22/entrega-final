@@ -15,7 +15,7 @@ body {
     background-color: #232323 !important;
 }
 #header {
-  margin: 20px;
+  margin: 0px;
 }
 .logui {
   width: 100px;
@@ -73,7 +73,7 @@ body {
 #avances .resumen{
   background-position: center;
   background-size: cover;
-  padding: 80px;
+  padding: 50px;
   margin: 12px;
   border-radius: 15px;
 }
@@ -168,6 +168,7 @@ body {
 .int a img{
   width: 50px;
   margin: 2px;
+  margin-top: 5px;
   
 }
 .copy {
@@ -177,4 +178,27 @@ body {
   font-size: 1em;
 }
 
+@media (min-width: 768px){
+  #apex {
+    display: block;
+  }
+  #trucos .tips .truc iframe {
+    width: 750px;
+    height: 400px;
+  }
 
+}
+
+@media (min-width: 992px){
+  #avances .play {
+    display: flex;
+    justify-content: center;
+  }
+  #avances .jugabilidad .play .resumen p {
+    display: block;
+    color: white;
+  }
+  #avances .resumen a {
+    color: aqua;
+  }
+}
