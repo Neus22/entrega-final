@@ -16,6 +16,7 @@ body {
 }
 #header {
   margin: 0px;
+  border: solid black 3px;
 }
 .logui {
   width: 100px;
@@ -33,6 +34,7 @@ body {
 #principal {
   background: #212529;
   margin: 20px 30px;
+  border: solid black 2px;
 }
 
 #principal #carouselExampleCaptions .carousel-inner p a {
@@ -51,6 +53,8 @@ body {
 /* SECTION */
 #avances {
   background-color: #212529;
+  border: solid black 2px;
+  border-radius: 15px;
   color: aqua;
   text-align: center;
   margin: 20px 30px;
@@ -118,6 +122,8 @@ body {
 /* iframe */
 #trucos {
   background-color: #212529;
+  border: solid black 2px;
+  border-radius: 15px;
   margin: 20px 30px;
   color: white;
   text-align: center;
@@ -155,6 +161,7 @@ body {
 /* FOOTER */
 #redes {
   background-color: #212529;
+  border: solid black 3px;
   height: 17vh
   
 }
@@ -182,6 +189,8 @@ body {
 /* PAGE ARMAS */
 #weapons {
   background-color: #212529;
+  border: solid black 2px;
+  border-radius: 15px;
   margin: 20px 30px;
   color: white;
   text-align: center;
