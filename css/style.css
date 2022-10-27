@@ -161,13 +161,12 @@ body {
 /* FOOTER */
 #redes {
   background-color: #212529;
-  border: solid black 3px;
-  height: 17vh
-  
+  border: solid black 3px;  
 }
 
 .logosRedes {
   margin-left: 30px;
+  margin-bottom: 15px;
   
 }
 .int {
@@ -182,7 +181,7 @@ body {
 .copy {
   color: white;
   text-align: center;
-  margin: 20px;
+  margin-bottom: -10px;
   font-size: 1em;
 }
 
@@ -203,8 +202,181 @@ body {
   padding: 5px;
 }
 
+#skewer {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
 
-/* RESPONSIVE */
+#skewer .ske h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#skewer .ske p{
+  padding-bottom: 10px;
+}
+
+#skewer .skei img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+#skewer .skei img:hover {
+  width: 100%;
+}
+
+#rifle {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#rifle .batalla h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#rifle .batalla p {
+  padding-bottom: 10px;
+}
+
+#rifle .riflei img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+#rifle .riflei img:hover {
+  width: 100%;
+}
+
+#rayo {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#rayo .termico h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#rayo .termico p {
+  padding-bottom: 10px;
+}
+
+#rayo .rayoi img {
+  width: 99%;
+  border-radius: 10px;
+}
+
+#rayo .rayoi img:hover {
+  width: 100%;
+}
+
+#lanza {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#lanza .cohete h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#lanza .cohete p {
+  padding-bottom: 10px;
+}
+
+#lanza .lanzai img {
+  width: 99%;
+  border-radius: 10px;
+}
+
+#lanza .lanzai img:hover {
+  width: 100%;
+}
+
+#asalto {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#asalto .deAsalto h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#asalto .deAsalto p {
+  padding-bottom: 10px;
+}
+
+#asalto .asaltoi img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+#asalto .asaltoi img:hover {
+  width: 100%;
+}
+
+#espada {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#espada .energia h2 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#espada .energia p {
+  padding-bottom: 10px;
+}
+
+#espada .espadai img {
+  width: 99%;
+  border-radius: 10px;
+}
+
+#espada .espadai img:hover {
+  width: 100%;
+}
+
+/* RESPONSIVE INICIO */
 @media (min-width: 768px){
   #apex {
     display: block;
@@ -227,5 +399,51 @@ body {
   }
   #avances .resumen a {
     color: aqua;
+  }
+}
+
+/* RESPONSIVE ARMAS */
+@media (min-width: 768px){
+  #skewer{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #rifle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #rayo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #lanza {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #asalto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #espada {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
