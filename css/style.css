@@ -376,6 +376,93 @@ body {
   width: 100%;
 }
 
+/* PAGE RANGOS */
+#rango {
+  background-color: #212529;
+  color: white;
+  margin: 20px 30px;
+  border: solid black 2px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+#rango .nivel h1 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#rango .nivel ul li {
+  list-style: none;
+  padding: 2px;
+}
+
+#rango .imgn img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+#rango .imgn img:hover {
+  width: 100%;
+}
+
+/* PAGE CLASIFICATORIAS */
+
+#arena {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#arena .clasi h1 {
+  color: aqua;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#arena .clasi p {
+  padding-bottom: 5px;
+}
+
+#arena .fica img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#clasificatoria {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+#clasificatoria .toria p {
+  padding-bottom: 5px;
+}
+
+#clasificatoria .clasiImg img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#asesino {
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 10px;
+}
+
 /* RESPONSIVE INICIO */
 @media (min-width: 768px){
   #apex {
@@ -440,6 +527,25 @@ body {
     gap: 10px;
   }
   #espada {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+/* RESPONSIVE CLASIFICATORIAS */
+
+@media (min-width: 768px) {
+  #arena {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #clasificatoria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
