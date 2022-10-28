@@ -472,6 +472,87 @@ body {
   padding: 10px;
 }
 
+/* PAGE HISTORIA */
+#historia .his{
+  background-color: #212529;
+  color: white;
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 20px 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+#historia .his h1 {
+  color: aqua;
+  font-size: 3em;
+  padding: 5px;
+}
+
+#videoHistoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#videoHistoria .vidHis {
+  background-color: #212529;
+  text-align: center;
+  margin: 20px 30px;
+  border: solid black 2px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis h2 {
+  color: aqua;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#videoHistoria .vidHis p {
+  color: white;
+  padding: 5px;
+}
+
+#videoHistoria .vidHis .nite iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis .histo iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis .histoDos iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis .histoTres iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis .histoCua iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#videoHistoria .vidHis .histoCinc iframe {
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
 /* RESPONSIVE INICIO */
 @media (min-width: 768px){
   #apex {
@@ -560,5 +641,60 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+  }
+}
+
+/* RESPONSIVE HISTORIA */
+@media (min-width: 768px) {
+  #videoHistoria .vidHis .histo iframe {
+    width: 600px;
+    height: 300px;
+  }
+  #videoHistoria .vidHis .histoDos iframe {
+    width: 600px;
+    height: 300px;
+  }
+  #videoHistoria .vidHis .histoTres iframe {
+    width: 600px;
+    height: 300px;
+  }
+  #videoHistoria .vidHis .histoCua iframe {
+    width: 600px;
+    height: 300px;
+  }
+  #videoHistoria .vidHis .histoCinc iframe {
+    width: 600px;
+    height: 300px;
+  }
+  #videoHistoria .vidHis .nite iframe {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #videoHistoria .vidHis .histo iframe {
+    width: 700px;
+    height: 400px;
+  }
+  #videoHistoria .vidHis .histoDos iframe {
+    width: 700px;
+    height: 400px;
+  }
+  #videoHistoria .vidHis .histoTres iframe {
+    width: 700px;
+    height: 400px;
+  }
+  #videoHistoria .vidHis .histoCua iframe {
+    width: 700px;
+    height: 400px;
+  }
+  #videoHistoria .vidHis .histoCinc iframe {
+    width: 700px;
+    height: 400px;
+  }
+  #videoHistoria .vidHis .nite iframe {
+    width: 700px;
+    height: 400px;
   }
 }
