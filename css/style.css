@@ -140,8 +140,9 @@ body {
 }
 
 #trucos .tips .truc iframe {
-  width: 330px;
+  width: 320px;
   height: 250px;
+  padding: 5px;
 }
 
 /* ASIDE */
