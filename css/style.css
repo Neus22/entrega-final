@@ -61,7 +61,7 @@ body {
 }
 
 #avances .jugabilidad {
-  padding: 80px 0px;
+  padding: 50px 0px;
 }
 
 #avances h2 {
@@ -161,16 +161,25 @@ body {
 /* FOOTER */
 #redes {
   background-color: #212529;
-  border: solid black 3px;  
+  border: solid black 3px;
+}
+
+#redes .seguir p {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 .logosRedes {
-  margin-left: 30px;
   margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
   
 }
 .int {
-  display: inline;
+  justify-self: center;
 }
 .int a img{
   width: 50px;
