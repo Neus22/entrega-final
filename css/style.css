@@ -558,6 +558,29 @@ body {
   background-color: #212529;
   color: aqua;
   margin: 20px 30px;
+  border: solid black 2px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+#form .radio, label, input .comen, .enviar {
+  padding: 5px;
+}
+
+#form .enviar {
+  margin: 10px;
+}
+
+#form .comen textarea {
+  resize: none;
+}
+
+
+#form .comen{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* RESPONSIVE INICIO */
@@ -705,3 +728,4 @@ body {
     height: 400px;
   }
 }
+
